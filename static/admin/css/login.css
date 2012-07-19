@@ -1,0 +1,90 @@
+/* LOGIN FORM */
+
+body.login {
+    background: #eee;
+}
+
+.login #container {
+	background: white;
+	border: 1px solid #ccc;
+	width: 460px;
+	min-width: 315px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+body.login div#content {
+	margin-top: 0px !important;
+	width: 460px;
+}
+.login #content-main {
+	width: 460px;
+}
+.login form {
+    margin-top: 1em;
+}
+
+.login .form-row {
+    padding: 4px 0;
+    float: left;
+    width: 100%;
+}
+
+.login .form-row label {
+	float: left;
+	width: 119px;
+	padding-right: 0.5em;
+	line-height: 3em;
+	text-align: right;
+	font-size: 1em;
+	color: #333;
+}
+.login .form-row #id_username, .login .form-row #id_password {
+	width: 270px;
+}
+
+.login span.help {
+    font-size: 10px;
+    display: block;
+}
+
+.login .submit-row {
+	clear: both;
+	padding: 1em 0 0 183px;
+}
+
+.login .password-reset-link {
+    text-align: center;
+}
+.login .errornote {
+	text-align: center;
+	background: #fff;
+	border-width: 0;
+	color: #CC3434;
+	display: block;
+	font-size: 16px !important;
+	margin: 0px;
+	min-height: 15px;
+	padding: 10px;
+	line-height: 18px;
+	width: 440px;
+	font-weight: bold;
+	padding-bottom: 15px;
+    padding-top: 15px;
+    background-color:#FFFFCC;
+    border-bottom: 1px solid #E3E3B6 ;
+}
+.login #branding h1 {
+	font-size: 22px;
+	line-height: 43px;
+	text-align: center;
+}
+.login #footer {
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.login ul.errorlist li{
+		width: 263px;
+}
