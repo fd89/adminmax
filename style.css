@@ -1,0 +1,274 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #ffffff;
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 111px;
+	background-image: url('images/background.jpg');
+}
+header {
+	height: 91px;
+	background-image: url('images/background-header.jpg');
+	margin-bottom: 0px;
+	position: fixed;
+	width: 100%;
+}
+a, img {
+	border-style: none;
+}
+div#logos {
+	padding: 5px;
+	height: 50px;
+}
+header a {
+	vertical-align: top;
+	cursor: pointer;
+	border: 0 none;
+	color: #555;
+	cursor: pointer;
+	font-size: 23px;
+	padding-right: 10px;
+	padding-left: 10px;
+	line-height: 30px;
+	text-decoration: none;
+	vertical-align: top;
+	font-family: 'Cagliostro', arial;
+}
+#logo-cobalys {
+	float: right;
+	margin-right: 30px;
+}
+#logo-adminamax {
+	float: left;
+	margin-left: 30px;
+}
+#content {
+	width: 100%;
+	margin: auto;
+	margin-top: 0px;
+	overflow: auto;
+	color: #555;
+	font-family: "Times New Roman", Times, serif
+}
+.container {
+	float: none;
+	height: 431px;
+	margin: 0 auto auto;
+	padding: 20px 20px 15px;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+ul {
+	list-style: none outside none;
+	width: 100%;
+}
+dd, dt, p, ul {
+	margin: 0;
+	padding: 0;
+}
+#classic {
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-color: transparent;
+	background-image: url("images/classic.png");
+	background-origin: padding-box;
+	background-position: center 114px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 560px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #555;
+}
+#adminmax {
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-color: transparent;
+	background-image: url("images/adminmax.png");
+	background-origin: padding-box;
+	background-position: center 114px;
+	background-repeat: no-repeat;
+	display: block;
+	height: 537px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #555;
+	width: 100%;
+}
+li {
+	display: inline-block;
+}
+#legend {
+	font-size: 30px;
+	text-align: center;
+	clear: both;
+	font-family: 'Cagliostro', sans-serif;
+	border-bottom: 1px solid #CCCCCC;
+	height: 31px;
+}
+#information {
+	float: none;
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 3px solid #eee;
+	font-family: arial;
+	margin: 20px auto auto;
+	width: 690px;
+	color: #555;
+}
+img#cobalys-footer {
+	margin-top: 0px;
+	margin-right: 40px;
+}
+div.footer {
+	margin: auto;
+	width: 990px;
+	text-align: right;
+}
+#information article {
+	padding: 40px;
+	border: 1px solid #bebebe;
+}
+#information p {
+	text-align: justify;
+	margin-top: 5px;
+}
+#animation-controls img {
+	cursor: pointer;
+}
+#animation-controls {
+	margin: auto;
+	padding-top: 9px;
+	text-align: center;
+	width: 454px;
+}
+footer {
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-top: 20px;
+	border-top: 1px solid #797979;
+	width: 100%;
+	background-color: #222;
+	height:145px;
+}
+footer * {
+	color: #ccc;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	font-family: Helvetica, arial, freesans, clean, sans-serif;
+}
+h1, h2 {
+	padding-bottom: 5px;
+}
+h2 {
+	font-size: 30px;
+	margin-top: 20px;
+}
+p#description {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-size: 27px;
+background-color: #222222;
+    color: #FFFFFF;
+    margin-bottom: 900px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+	text-align: center;
+}
+#download {
+	margin: auto;
+	width: 1000px;
+height: 330px;
+    padding-top: 80px;
+    color:#fff;
+}
+pre.code {
+	background-color: #333333;
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	padding: 10px;
+	text-align: left;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/* ------------------------------------------
+ * CSS3 GITHUB BUTTONS (Nicolas Gallagher)
+ * Licensed under Unlicense
+ * http://github.com/necolas/css3-github-buttons
+ * --------------------------------------- */
+
+/* =============================================================================
+ Base Button
+ ========================================================================== */
+
+.button {
+	position: relative;
+	overflow: visible;
+	display: inline-block;
+	padding: 0.5em 1em;
+	border: 1px solid #888;
+	margin: 0;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	font: 11px/normal sans-serif;
+	color: #fff;
+	white-space: nowrap;
+	cursor: pointer;
+	outline: none;
+	background-color: #3c8dde;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+	background-image: -moz-linear-gradient(#599bdc, #3072b3);
+	background-image: -o-linear-gradient(#599bdc, #3072b3);
+	background-image: linear-gradient(#599bdc, #3072b3);
+	-moz-background-clip: padding; /* for Firefox 3.6 */
+	background-clip: padding-box;
+	border-radius: 0.2em;
+	/* IE hacks */
+	zoom: 1;
+	*
+	display: inline;
+}
+.button:hover, .button:focus, .button:active, .button.active {
+	border-color: #3072b3;
+	border-bottom-color: #2a65a0;
+	text-decoration: none;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	color: #fff;
+	background-color: #3c8dde;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+	background-image: -moz-linear-gradient(#599bdc, #3072b3);
+	background-image: -o-linear-gradient(#599bdc, #3072b3);
+	background-image: linear-gradient(#599bdc, #3072b3);
+}
+.button:active, .button.active {
+	border-color: #2a65a0;
+	border-bottom-color: #3884cd;
+	background-color: #3072b3;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+	background-image: -moz-linear-gradient(#3072b3, #599bdc);
+	background-image: -ms-linear-gradient(#3072b3, #599bdc);
+	background-image: -o-linear-gradient(#3072b3, #599bdc);
+	background-image: linear-gradient(#3072b3, #599bdc);
+}
+/* overrides extra padding on button elements in Firefox */
+.button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+/* Big button
+ ========================================================================== */
+
+.button.big {
+	font-size: 20px;
+}
