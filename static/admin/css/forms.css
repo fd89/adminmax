@@ -68,7 +68,7 @@ form ul.inline li {
 	padding: 3px 10px 0 0;
 	float: left;
 	line-height: 25px;
-	width: 130px;
+	width: 192px;
 }
 
 .aligned ul label {
@@ -82,7 +82,7 @@ form ul.inline li {
 }
 
 form .aligned p, form .aligned ul {
-	margin-left: 166px;
+	margin-left: 201px;
 	padding-left: 0;
 }
 
@@ -103,7 +103,7 @@ form .aligned p.help {
 }
 
 .colM .aligned .vLargeTextField, .colM .aligned .vXMLLargeTextField {
-	width: 641px;
+	width: 610px;
 	font-size: 15px;
 }
 
@@ -232,7 +232,7 @@ body.popup .submit-row {
 }
 
 .vTextField {
-	width: 642px;
+	width: 610px;
 }
 
 #changelist .errorlist li {

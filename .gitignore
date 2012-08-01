@@ -1,0 +1,7 @@
+/adminmaxtest/adminmax
+.project
+.directory
+.settings
+*.pyc
+*~
+

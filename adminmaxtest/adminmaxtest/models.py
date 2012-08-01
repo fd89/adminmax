@@ -1,8 +1,7 @@
 from django.db import models
     
 class Multi(models.Model):
-   author = models.ManyToManyField(Authora)
-   title = models.CharField(max_length=100)
+   charField = models.CharField(max_length=100)
 
 class Supermodel(models.Model):
     bigInteger = models.BigIntegerField()
