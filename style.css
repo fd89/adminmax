@@ -97,9 +97,9 @@ dd, dt, p, ul {
 	background-position: center 114px;
 	background-repeat: no-repeat;
 	display: block;
-	height: 537px;
+	height: 560px;
 	margin: 0;
-	padding: 0;
+	padding: 0; 
 	border-bottom: 1px solid #555;
 	width: 100%;
 }
