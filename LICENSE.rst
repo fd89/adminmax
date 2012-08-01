@@ -2,7 +2,7 @@
 License
 =======
 
-This project is based in the Django Project code (version 1.4) woth some changes were made by Cobalys Systems.
+This project is based on code from the Django Project (version 1.4) with some changes were made by Cobalys Systems.
 
 
 Fork License
