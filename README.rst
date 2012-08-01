@@ -9,10 +9,10 @@ How to install Adminmax
 
 Add the path to the adminmax directory in the STATICFILES_DIRS directive::
 					
-STATICFILES_DIRS = (
-     # ...
-     "/path/to/adminmax/static/",
-)
+	STATICFILES_DIRS = (
+	     # ...
+	     "/path/to/adminmax/static/",
+	)
     
 
 Website
