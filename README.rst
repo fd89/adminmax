@@ -1,5 +1,7 @@
+========
 Adminmax
---------
+========
+
 Adminmax is a modern CSS Skin for the Django Admin site. 
 
 How to install Adminmax
