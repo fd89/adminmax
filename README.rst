@@ -7,7 +7,7 @@ Adminmax is a modern CSS Skin for the Django Admin site.
 How to install Adminmax
 -----------------------
 
-Add the path to the adminmax directory in the STATICFILES_DIRS directive::
+Add the adminmax path to the STATICFILES_DIRS directive::
 					
 	STATICFILES_DIRS = (
 	     # ...

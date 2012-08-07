@@ -3,7 +3,6 @@
 body.login {
     background: #eee;
 }
-
 .login #container {
 	background: white;
 	border: 1px solid #ccc;
@@ -13,9 +12,9 @@ body.login {
 	margin-right: auto;
 	margin-top: 100px;
 }
-
 body.login div#content {
 	margin-top: 0px !important;
+	min-width: 460px;
 	width: 460px;
 }
 .login #content-main {
@@ -24,13 +23,11 @@ body.login div#content {
 .login form {
     margin-top: 1em;
 }
-
 .login .form-row {
     padding: 4px 0;
     float: left;
     width: 100%;
 }
-
 .login .form-row label {
 	float: left;
 	width: 119px;
@@ -43,17 +40,14 @@ body.login div#content {
 .login .form-row #id_username, .login .form-row #id_password {
 	width: 270px;
 }
-
 .login span.help {
     font-size: 10px;
     display: block;
 }
-
 .login .submit-row {
 	clear: both;
 	padding: 1em 0 0 183px;
 }
-
 .login .password-reset-link {
     text-align: center;
 }
