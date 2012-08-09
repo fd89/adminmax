@@ -13,12 +13,11 @@ body {
 	background-repeat: repeat-x;
 	background-position: top;
 	height: 111px;
-	background-image: url('images/background.jpg');
+    background-image: url('../images/background.jpg');
 }
 header {
 	height: 91px;
-	background-image: url('images/background-header.jpg');
-	background-position: center bottom;
+	background-image: url('../images/background-header.jpg');
 	background-position: center top;
 	margin-bottom: 0px;
 	position: fixed;
@@ -82,7 +81,7 @@ dd, dt, p, ul {
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-color: transparent;
-	background-image: url("images/classic.png");
+	background-image: url("../images/classic.png");
 	background-origin: padding-box;
 	background-position: center 114px;
 	background-repeat: no-repeat;
@@ -97,7 +96,7 @@ dd, dt, p, ul {
 	background-attachment: fixed;
 	background-clip: border-box;
 	background-color: transparent;
-	background-image: url("images/adminmax.png");
+	background-image: url("../images/adminmax.png");
 	background-origin: padding-box;
 	background-position: center 114px;
 	background-repeat: no-repeat;
@@ -117,8 +116,8 @@ li {
 	font-family: 'Cagliostro', sans-serif;
 	border-bottom: 1px solid #CCCCCC;
 	height: 31px;  
-	background-image: url('images/background-header.jpg');
-
+	background-image: url('../images/background-header.jpg');
+    background-position: center bottom;
 }
 #information {
 	float: none;
