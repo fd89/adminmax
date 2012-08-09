@@ -18,6 +18,7 @@ body {
 header {
 	height: 91px;
 	background-image: url('images/background-header.jpg');
+	background-position: center bottom;
 	background-position: center top;
 	margin-bottom: 0px;
 	position: fixed;
@@ -103,8 +104,7 @@ dd, dt, p, ul {
 	display: block;
 	height: 560px;
 	margin: 0;
-	padding: 0; 
-	border-bottom: 1px solid #555;
+	padding: 0;
 	width: 100%;
 }
 li {
@@ -116,7 +116,9 @@ li {
 	clear: both;
 	font-family: 'Cagliostro', sans-serif;
 	border-bottom: 1px solid #CCCCCC;
-	height: 31px;
+	height: 31px;  
+	background-image: url('images/background-header.jpg');
+
 }
 #information {
 	float: none;
